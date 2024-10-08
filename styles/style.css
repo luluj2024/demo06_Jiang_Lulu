@@ -1,1 +1,83 @@
+/*
+* --------------------------------------------
+* Custom styles to override the default Bootstrap ones
+* --------------------------------------------
+*/
+
+/* New Color Palette:
+* Alice Blue (Main Background): #edf5fc
+* Rose Squartz (Primary): #a39ba8
+* Powder Blue (Accent): #b8c5d6
+* Gunmetal (Secondary): #272d2d
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Artifika&family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+body{
+    font-family: 'Artifika', sans-serif;
+}
+
+.bg-info {
+    background-color: #b8c5d6 !important;
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link  {
+    color: #a39ba8;
+}
+
+body {
+    background-color: #edf5fc;
+}
+
+button[type="submit"] {
+    color:#edf5fc;
+    font-size: 130%;
+    background-color: #a39ba8;
+    border: 2px solid #272d2d ;
+}
+
+input[type="search"]{
+    border-color:#272d2d;  
+}
+
+.navbar-brand{
+    font-family: 'Artifika', sans-serif;
+    font-size: 2.8rem;
+}
+
+.btn-outline-primary{
+    color:#272d2d;
+    border-color:  #a39ba8;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:focus{
+    color:#272d2d;
+    background-color: #edf5fc;
+    border-color: #a39ba8;
+}
+
+.btn-check:checked + .btn-outline-primary, .btn-check:active + .btn-outline-primary {
+    color: #edf5fc;
+    background-color: #b8c5d6;
+    border-color: #272d2d;
+}
+
+.btn-secondary{
+    background-color: #b8c5d6;
+    color: #272d2d;
+    border-color: #a39ba8;
+}
+
+#submit {
+    background-color: #b8c5d6 ;
+    border-color: #272d2d;
+    color:#a39ba8;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+#logo {
+    height: 40px;
+    width: 45px;
+}
 
